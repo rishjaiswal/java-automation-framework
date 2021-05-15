@@ -16,4 +16,9 @@ public class AppTest {
 		System.out.println("Hello Rishabh Jaiswal!");
 	}
 
+	@Test
+	public void TestMethod() {
+		System.out.println("Hello Jaiswal!");
+	}
+
 }

@@ -14,5 +14,10 @@ public class HomePageTest extends BaseTest {
 		System.out.println("Apple Home Page Title is :" + DriverUtils.initializeDriver().getTitle());
 		Assert.assertEquals("Apple", DriverUtils.initializeDriver().getTitle());
 	}
+	@Test
+	public void getFullHomePageTitle() {
+		System.out.println("Apple Home Page Title is :" + DriverUtils.initializeDriver().getTitle());
+		Assert.assertEquals("Appl", DriverUtils.initializeDriver().getTitle());
+	}
 
 }

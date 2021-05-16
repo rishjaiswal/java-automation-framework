@@ -9,6 +9,7 @@ public class Constants {
 			+ "test" + File.separator + "resources";
 	public static final String CONFIGFILEPATH = RESOURCESPATH + File.separator + "config" + File.separator
 			+ "config.properties";
+	public static final String SCREENSHOTFILEPATH = RESOURCESPATH + File.separator + "screenshots" + File.separator;
 	public static String EXCELPATH = RESOURCESPATH + File.separator + "testdata";
 	public static String DRIVERPATH = RESOURCESPATH + File.separator + "driver";
 

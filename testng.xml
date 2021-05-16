@@ -4,10 +4,10 @@
 	<listeners>
 	<listener class-name ="com.rishabh.framework.listeners.TestListener"/>
 	</listeners>
-  <test thread-count="5" name="Test">
-  	<classes>
-  		<class name="com.rishabh.framework.AppTest"/>
-  		<class name="com.rishabh.framework.HomePageTest"/>
-  	</classes>
-  </test> <!-- Test -->
+	<test thread-count="5" name="Test">
+  		<classes>
+			<class name="com.rishabh.framework.AppTest"/>
+			<class name="com.rishabh.framework.HomePageTest"/>
+  		</classes>
+  	</test> <!-- Test -->
 </suite> <!-- Suite -->

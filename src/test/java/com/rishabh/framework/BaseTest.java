@@ -1,11 +1,15 @@
 package com.rishabh.framework;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.AfterSuite;
 import com.rishabh.framework.utils.ConfigReader;
 import org.testng.annotations.BeforeSuite;
 import com.rishabh.framework.utils.DriverUtils;
 
 public class BaseTest {
+
+	private static Logger log = LogManager.getLogger(BaseTest.class.getName());
 
 	/*
 	 * To Set-up the Pre-conditions for the Test
@@ -14,7 +18,7 @@ public class BaseTest {
 	public void setUp() {
 		ConfigReader.configReader();
 		DriverUtils.initializeDriver().get(ConfigReader.configData.get("url"));
-		System.out.println("Home Page Title is " + DriverUtils.initializeDriver().getTitle());
+		log.info("Home Page Title is " + DriverUtils.initializeDriver().getTitle());
 	}
 
 	/*
@@ -23,7 +27,7 @@ public class BaseTest {
 	@AfterSuite
 	public void cleanUp() {
 		DriverUtils.quit();
-		System.out.println("Closing the Home Page");
+		log.info("Closing the Home Page");
 	}
 
 }

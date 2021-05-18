@@ -1,0 +1,18 @@
+00:34:53.866 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+00:34:53.870 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+00:35:02.338 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+00:35:02.338 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+00:35:02.348 [main] INFO  com.rishabh.framework.listeners.TestListener - TestMethod test case started
+00:35:02.349 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+00:35:02.349 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+00:35:02.350 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+00:35:02.351 [main] INFO  com.rishabh.framework.listeners.TestListener - getFullHomePageTitle test case started
+00:35:02.360 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+00:35:02.372 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+00:35:03.254 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+00:35:03.255 [main] INFO  com.rishabh.framework.listeners.TestListener - getHomePageTitle test case started
+00:35:03.262 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+00:35:03.268 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+00:35:03.268 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+00:35:03.294 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+00:35:03.428 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page

@@ -1,11 +1,15 @@
 package com.rishabh.framework;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
 /**
  * Unit test for simple App.
  */
 public class AppTest {
+	
+	private static Logger log = LogManager.getLogger(AppTest.class.getName());
 	/**
 	 * Create the test case
 	 *
@@ -13,12 +17,14 @@ public class AppTest {
 	 */
 	@Test
 	public AppTest(String testName) {
-		System.out.println("Hello Rishabh Jaiswal!");
+		log.debug("Hello Rishabh Jaiswal!");
+		log.info("AppTest Completed");
 	}
 
 	@Test
 	public void TestMethod() {
-		System.out.println("Hello Jaiswal!");
+		log.debug("Hello Jaiswal!");
+		log.info("TestMethod() Completed");
 	}
 
 }

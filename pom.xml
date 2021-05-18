@@ -10,8 +10,13 @@
 
 	<name>java-automation-scratch</name>
 	<url>http://maven.apache.org</url>
-	
  	<build>
+ 		<resources>
+	        <resource>
+	            <directory>src/main/resources</directory>
+	            <filtering>true</filtering> 
+	        </resource>
+   		 </resources>
    		<pluginManagement>
       		<plugins>
         		<plugin>
@@ -27,13 +32,13 @@
       		</plugins>
     	</pluginManagement>
   	</build>
-	
-
+  	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>13</maven.compiler.source>
      	<maven.compiler.target>13</maven.compiler.target>
 	</properties>
+
 
 	<dependencies>
 		<dependency>
@@ -48,5 +53,15 @@
 		    <artifactId>selenium-java</artifactId>
 		    <version>3.141.59</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.14.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.14.1</version>
+  		</dependency>
 	</dependencies>
 </project>

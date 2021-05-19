@@ -27,14 +27,14 @@ public class ExcelUtils {
 			// Identify the test-cases by scanning the 1st row
 
 			int totalRows = sheet.getLastRowNum();
-			log.info("Number of rows are : "+ totalRows);
+			log.info("Number of rows are : " + totalRows);
 			int totalColumns = sheet.getRow(0).getLastCellNum();
-			log.info("Number of columns are : "+ totalColumns);
+			log.info("Number of columns are : " + totalColumns);
 
 			for (int i = 1; i <= 8; i++) {
 				ArrayList<String> dataList = new ArrayList<>();
 				Row row = sheet.getRow(i);
-				//Condition-Check on Specific Cell Value
+				// Condition-Check on Specific Cell Value
 				if (row.getCell(3).getStringCellValue().equalsIgnoreCase("Female")) {
 					log.debug("Data is Found : Female");
 				} else {

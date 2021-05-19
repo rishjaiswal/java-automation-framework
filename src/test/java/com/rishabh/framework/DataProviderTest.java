@@ -27,7 +27,7 @@ public class DataProviderTest {
 	@DataProvider(name = "TestData")
 	public Object[][] getData() throws URISyntaxException {
 
-		String excel_path= Constants.EXCELPATH + File.separator + ConfigReader.configData.get("test_excel_name");
+		String excel_path = Constants.EXCELPATH + File.separator + ConfigReader.configData.get("test_excel_name");
 		log.info(excel_path);
 		return ExcelUtils.getTestData(excel_path);
 

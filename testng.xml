@@ -8,6 +8,7 @@
   		<classes>
 			<class name="com.rishabh.framework.AppTest"/>
 			<class name="com.rishabh.framework.HomePageTest"/>
+			<class name="com.rishabh.framework.DataProviderTest"/>
   		</classes>
   	</test> <!-- Test -->
 </suite> <!-- Suite -->

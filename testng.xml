@@ -9,6 +9,7 @@
 			<class name="com.rishabh.framework.AppTest"/>
 			<class name="com.rishabh.framework.HomePageTest"/>
 			<class name="com.rishabh.framework.DataProviderTest"/>
+			<class name="com.rishabh.framework.ApplePageTest"/>
   		</classes>
   	</test> <!-- Test -->
 </suite> <!-- Suite -->

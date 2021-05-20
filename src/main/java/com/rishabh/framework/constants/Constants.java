@@ -12,6 +12,8 @@ public class Constants {
 	public static final String SCREENSHOTFILEPATH = RESOURCESPATH + File.separator + "screenshots" + File.separator;
 	public static String EXCELPATH = RESOURCESPATH + File.separator + "testdata";
 	public static String DRIVERPATH = RESOURCESPATH + File.separator + "driver";
+	public static final String REPORTPATH = System.getProperty("user.dir") + File.separator + "reports" + File.separator
+			+ "index.html";
 
 	public static final int EXPLICITWAIT = 70;
 	public static final int IMPLICITWAIT = 3;

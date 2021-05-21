@@ -28,9 +28,9 @@ public class DriverUtils {
 	public static WebDriver initializeDriver() {
 		if (driver == null) {
 
-			if (ConfigReader.configData.get("browser").equalsIgnoreCase("safari")) {
+			if (ConfigReader.getConfigData().get("browser").equalsIgnoreCase("safari")) {
 				driver = new SafariDriver();
-			} else if (ConfigReader.configData.get("browser").equalsIgnoreCase("chrome")) {
+			} else if (ConfigReader.getConfigData().get("browser").equalsIgnoreCase("chrome")) {
 				String CHROMEDRIVERPATH;
 				if (OsUtils.isMac())
 					CHROMEDRIVERPATH = Constants.DRIVERPATH + File.separator + "chromedriver";

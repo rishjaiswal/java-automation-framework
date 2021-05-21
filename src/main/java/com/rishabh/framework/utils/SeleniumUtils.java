@@ -74,11 +74,18 @@ public class SeleniumUtils {
 
 	/**
 	 * To click on the webelement
+	 * @throws InterruptedException 
 	 * 
 	 * @element : WebElement
 	 */
 	public static void click(WebElement element) {
 		element.click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	/**

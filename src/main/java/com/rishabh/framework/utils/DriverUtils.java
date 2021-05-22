@@ -1,6 +1,7 @@
 package com.rishabh.framework.utils;
 
 import java.io.File;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -50,6 +51,10 @@ public class DriverUtils {
 				System.setProperty("webdriver.gecko.driver", GECKODRIVERPATH);
 				driver = new FirefoxDriver();
 			}
+
+			driver.manage().deleteAllCookies();
+			driver.manage().timeouts().implicitlyWait(Constants.IMPLICITWAIT, TimeUnit.SECONDS);
+			driver.manage().timeouts().pageLoadTimeout(Constants.IMPLICITWAIT, TimeUnit.SECONDS);
 			driver.manage().window().maximize();
 
 		}

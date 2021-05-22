@@ -17,7 +17,7 @@ public class BaseTest {
 	@BeforeSuite
 	public void setUp() {
 		ConfigReader.configReader();
-		DriverUtils.initializeDriver().get(ConfigReader.configData.get("url"));
+		DriverUtils.initializeDriver().get(ConfigReader.getConfigData().get("url"));
 		log.info("Home Page Title is " + DriverUtils.initializeDriver().getTitle());
 	}
 

@@ -12,6 +12,13 @@ public class ConfigReader {
 	public static Map<String, String> configData = new HashMap<>();
 
 	/**
+	 * Private constructor to avoid external instantiation
+	 */
+	private ConfigReader() {
+	};
+
+
+	/**
 	 * To read the properties from config file and load as key-value in HashMap
 	 */
 	public static void configReader() {
@@ -32,7 +39,7 @@ public class ConfigReader {
 	/**
 	 * To use a singleton instance and return it same HashMap
 	 */
-	public HashMap<String, String> getConfigData() {
+	public static HashMap<String, String> getConfigData() {
 		return (HashMap<String, String>) configData;
 	}
 

@@ -16,6 +16,6 @@ public class Constants {
 			+ "index.html";
 
 	public static final int EXPLICITWAIT = 70;
-	public static final int IMPLICITWAIT = 3;
+	public static final int IMPLICITWAIT = 20;
 
 }

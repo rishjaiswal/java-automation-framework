@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import com.rishabh.framework.BaseTest;
 import com.rishabh.framework.pages.HomePage;
 import com.rishabh.framework.pages.MacPage;
+import com.rishabh.framework.pages.iPhonePage;
 import com.rishabh.framework.utils.DriverUtils;
 
 public class ApplePageTest extends BaseTest {
@@ -40,6 +41,14 @@ public class ApplePageTest extends BaseTest {
 		log.debug("iPhone Home Page Title is :" + DriverUtils.initializeDriver().getTitle());
 		Assert.assertEquals("iPhone - Apple", DriverUtils.initializeDriver().getTitle());
 		log.info("validateiPhonePageTitle() TC gets completed");
+	}
+	
+	@Test(priority = 4)
+	public void validateiPhoneLearnMore() {
+		iPhonePage.clickLearnMore();
+		log.debug("iPhonePage Learn More Title is :" + DriverUtils.initializeDriver().getTitle());
+		Assert.assertEquals("Apple Trade In - Apple", DriverUtils.initializeDriver().getTitle());
+		log.info("validateiPhoneLearnMore() TC gets completed");
 	}
 
 }

@@ -111,3 +111,1046 @@
 03:31:09.811 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhonePageTitle
 03:31:09.860 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
 03:31:10.833 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page
+12:46:24.510 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+12:46:24.513 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+12:46:34.493 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+12:46:34.494 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+12:46:34.510 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : TestMethod
+12:46:34.510 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : TestMethod
+12:46:34.517 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+12:46:34.518 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+12:46:34.518 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+12:46:34.526 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getFullHomePageTitle
+12:46:34.526 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getFullHomePageTitle
+12:46:34.538 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+12:46:34.552 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+12:46:35.246 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+12:46:35.249 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getHomePageTitle
+12:46:35.250 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getHomePageTitle
+12:46:35.256 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+12:46:35.261 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+12:46:35.261 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+12:46:35.264 [main] INFO  com.rishabh.framework.DataProviderTest - /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/testdata/testdata.xlsx
+12:46:35.269 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Inside getTestData() method
+12:46:36.036 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of rows are : 50
+12:46:36.036 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of columns are : 8
+12:46:36.042 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+12:46:36.042 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Dulce
+12:46:36.043 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Abril
+12:46:36.043 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+12:46:36.043 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+12:46:36.044 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Mara
+12:46:36.044 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hashimoto
+12:46:36.044 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+12:46:36.044 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+12:46:36.045 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Philip
+12:46:36.046 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gent
+12:46:36.046 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+12:46:36.046 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+12:46:36.046 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Kathleen
+12:46:36.047 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hanner
+12:46:36.047 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+12:46:36.047 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+12:46:36.047 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Nereida
+12:46:36.048 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Magwood
+12:46:36.048 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+12:46:36.049 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+12:46:36.049 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gaston
+12:46:36.049 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Brumm
+12:46:36.049 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+12:46:36.050 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+12:46:36.050 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Etta
+12:46:36.050 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hurn
+12:46:36.050 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+12:46:36.051 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+12:46:36.051 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Earlean
+12:46:36.051 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Melgar
+12:46:36.051 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+12:46:36.054 [main] INFO  com.rishabh.framework.utils.ExcelUtils - getTestData() gets completed
+12:46:36.055 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+12:46:36.055 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataDulce
+12:46:36.056 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Dulce Abril Female
+12:46:36.056 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+12:46:36.056 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+12:46:36.057 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+12:46:36.057 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataMara
+12:46:36.057 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Mara Hashimoto Female
+12:46:36.057 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+12:46:36.058 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+12:46:36.058 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+12:46:36.058 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataPhilip
+12:46:36.059 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Philip Gent Male
+12:46:36.060 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+12:46:36.060 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+12:46:36.061 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+12:46:36.061 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataKathleen
+12:46:36.061 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Kathleen Hanner Female
+12:46:36.061 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+12:46:36.062 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+12:46:36.062 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+12:46:36.062 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataNereida
+12:46:36.063 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Nereida Magwood Female
+12:46:36.063 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+12:46:36.063 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+12:46:36.064 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+12:46:36.064 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataGaston
+12:46:36.064 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Gaston Brumm Male
+12:46:36.064 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+12:46:36.065 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+12:46:36.069 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+12:46:36.069 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEtta
+12:46:36.069 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Etta Hurn Female
+12:46:36.069 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+12:46:36.070 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+12:46:36.070 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+12:46:36.070 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEarlean
+12:46:36.071 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Earlean Melgar Female
+12:46:36.071 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+12:46:36.071 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+12:46:36.072 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateMacPageTitle
+12:46:36.072 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateMacPageTitle
+12:46:41.820 [main] DEBUG com.rishabh.framework.ApplePageTest - Mac Home Page Title is :Mac - Apple
+12:46:41.827 [main] INFO  com.rishabh.framework.ApplePageTest - validateMacPageTitle() TC gets completed
+12:46:41.827 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateMacPageTitle
+12:46:41.829 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : clickApple
+12:46:41.829 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : clickApple
+12:46:46.176 [main] DEBUG com.rishabh.framework.ApplePageTest - Apple Page Title is :Apple
+12:46:46.182 [main] INFO  com.rishabh.framework.ApplePageTest - clickApple() TC gets completed
+12:46:46.183 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : clickApple
+12:46:46.184 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhonePageTitle
+12:46:46.184 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhonePageTitle
+12:46:57.653 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhone Home Page Title is :iPhone - Apple
+12:46:57.659 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhonePageTitle() TC gets completed
+12:46:57.659 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhonePageTitle
+12:46:57.688 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+12:46:58.494 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page
+13:05:20.596 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+13:05:20.600 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+13:05:32.640 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+13:05:32.642 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+13:05:32.661 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : TestMethod
+13:05:32.662 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : TestMethod
+13:05:32.673 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+13:05:32.673 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+13:05:32.674 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+13:05:32.681 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getFullHomePageTitle
+13:05:32.681 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getFullHomePageTitle
+13:05:32.707 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+13:05:32.725 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+13:05:33.450 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+13:05:33.454 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getHomePageTitle
+13:05:33.454 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getHomePageTitle
+13:05:33.460 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+13:05:33.472 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+13:05:33.472 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+13:05:33.477 [main] INFO  com.rishabh.framework.DataProviderTest - /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/testdata/testdata.xlsx
+13:05:33.482 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Inside getTestData() method
+13:05:34.514 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of rows are : 50
+13:05:34.515 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of columns are : 8
+13:05:34.579 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+13:05:34.580 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Dulce
+13:05:34.580 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Abril
+13:05:34.580 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+13:05:34.592 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+13:05:34.593 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Mara
+13:05:34.595 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hashimoto
+13:05:34.595 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+13:05:34.595 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+13:05:34.596 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Philip
+13:05:34.597 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gent
+13:05:34.597 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+13:05:34.597 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+13:05:34.599 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Kathleen
+13:05:34.599 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hanner
+13:05:34.599 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+13:05:34.599 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+13:05:34.600 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Nereida
+13:05:34.600 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Magwood
+13:05:34.600 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+13:05:34.601 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+13:05:34.601 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gaston
+13:05:34.602 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Brumm
+13:05:34.602 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+13:05:34.602 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+13:05:34.602 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Etta
+13:05:34.603 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hurn
+13:05:34.603 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+13:05:34.603 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+13:05:34.605 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Earlean
+13:05:34.605 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Melgar
+13:05:34.605 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+13:05:34.610 [main] INFO  com.rishabh.framework.utils.ExcelUtils - getTestData() gets completed
+13:05:34.610 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+13:05:34.611 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataDulce
+13:05:34.611 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Dulce Abril Female
+13:05:34.611 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+13:05:34.612 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+13:05:34.612 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+13:05:34.612 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataMara
+13:05:34.612 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Mara Hashimoto Female
+13:05:34.613 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+13:05:34.613 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+13:05:34.614 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+13:05:34.614 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataPhilip
+13:05:34.614 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Philip Gent Male
+13:05:34.614 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+13:05:34.615 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+13:05:34.620 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+13:05:34.621 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataKathleen
+13:05:34.621 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Kathleen Hanner Female
+13:05:34.621 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+13:05:34.622 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+13:05:34.622 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+13:05:34.623 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataNereida
+13:05:34.625 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Nereida Magwood Female
+13:05:34.625 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+13:05:34.626 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+13:05:34.626 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+13:05:34.627 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataGaston
+13:05:34.627 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Gaston Brumm Male
+13:05:34.627 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+13:05:34.629 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+13:05:34.629 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+13:05:34.630 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEtta
+13:05:34.630 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Etta Hurn Female
+13:05:34.630 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+13:05:34.630 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+13:05:34.631 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+13:05:34.631 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEarlean
+13:05:34.631 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Earlean Melgar Female
+13:05:34.632 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+13:05:34.632 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+13:05:34.632 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateMacPageTitle
+13:05:34.633 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateMacPageTitle
+13:05:39.992 [main] DEBUG com.rishabh.framework.ApplePageTest - Mac Home Page Title is :Mac - Apple
+13:05:39.997 [main] INFO  com.rishabh.framework.ApplePageTest - validateMacPageTitle() TC gets completed
+13:05:39.999 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateMacPageTitle
+13:05:40.000 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : clickApple
+13:05:40.000 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : clickApple
+13:05:44.456 [main] DEBUG com.rishabh.framework.ApplePageTest - Apple Page Title is :Apple
+13:05:44.466 [main] INFO  com.rishabh.framework.ApplePageTest - clickApple() TC gets completed
+13:05:44.466 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : clickApple
+13:05:44.467 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhonePageTitle
+13:05:44.467 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhonePageTitle
+13:05:52.520 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhone Home Page Title is :iPhone - Apple
+13:05:52.525 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhonePageTitle() TC gets completed
+13:05:52.526 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhonePageTitle
+13:05:52.556 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+13:05:53.644 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page
+22:59:28.706 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+22:59:28.709 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+22:59:39.152 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+22:59:39.154 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+22:59:39.177 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : TestMethod
+22:59:39.178 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : TestMethod
+22:59:39.186 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+22:59:39.186 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+22:59:39.187 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+22:59:39.194 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getFullHomePageTitle
+22:59:39.194 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getFullHomePageTitle
+22:59:39.202 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+22:59:39.221 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+22:59:40.920 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+22:59:40.926 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getHomePageTitle
+22:59:40.926 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getHomePageTitle
+22:59:40.933 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+22:59:40.940 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+22:59:40.940 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+22:59:40.945 [main] INFO  com.rishabh.framework.DataProviderTest - /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/testdata/testdata.xlsx
+22:59:40.968 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Inside getTestData() method
+22:59:41.832 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of rows are : 50
+22:59:41.833 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of columns are : 8
+22:59:41.840 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+22:59:41.841 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Dulce
+22:59:41.841 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Abril
+22:59:41.842 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+22:59:41.842 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+22:59:41.843 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Mara
+22:59:41.843 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hashimoto
+22:59:41.843 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+22:59:41.844 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+22:59:41.844 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Philip
+22:59:41.845 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gent
+22:59:41.845 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+22:59:41.845 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+22:59:41.845 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Kathleen
+22:59:41.846 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hanner
+22:59:41.846 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+22:59:41.846 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+22:59:41.846 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Nereida
+22:59:41.847 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Magwood
+22:59:41.847 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+22:59:41.848 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+22:59:41.848 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gaston
+22:59:41.848 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Brumm
+22:59:41.849 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+22:59:41.849 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+22:59:41.849 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Etta
+22:59:41.850 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hurn
+22:59:41.850 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+22:59:41.850 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+22:59:41.850 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Earlean
+22:59:41.850 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Melgar
+22:59:41.850 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+22:59:41.854 [main] INFO  com.rishabh.framework.utils.ExcelUtils - getTestData() gets completed
+22:59:41.855 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+22:59:41.855 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataDulce
+22:59:41.856 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Dulce Abril Female
+22:59:41.856 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+22:59:41.856 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+22:59:41.856 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+22:59:41.856 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataMara
+22:59:41.857 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Mara Hashimoto Female
+22:59:41.857 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+22:59:41.857 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+22:59:41.858 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+22:59:41.858 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataPhilip
+22:59:41.858 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Philip Gent Male
+22:59:41.858 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+22:59:41.858 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+22:59:41.859 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+22:59:41.859 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataKathleen
+22:59:41.859 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Kathleen Hanner Female
+22:59:41.859 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+22:59:41.860 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+22:59:41.860 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+22:59:41.861 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataNereida
+22:59:41.861 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Nereida Magwood Female
+22:59:41.862 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+22:59:41.862 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+22:59:41.863 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+22:59:41.863 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataGaston
+22:59:41.863 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Gaston Brumm Male
+22:59:41.863 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+22:59:41.864 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+22:59:41.864 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+22:59:41.865 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEtta
+22:59:41.865 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Etta Hurn Female
+22:59:41.865 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+22:59:41.865 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+22:59:41.866 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+22:59:41.866 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEarlean
+22:59:41.866 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Earlean Melgar Female
+22:59:41.867 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+22:59:41.867 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+22:59:41.868 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateMacPageTitle
+22:59:41.868 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateMacPageTitle
+22:59:44.013 [main] DEBUG com.rishabh.framework.ApplePageTest - Mac Home Page Title is :Mac - Apple
+22:59:44.022 [main] INFO  com.rishabh.framework.ApplePageTest - validateMacPageTitle() TC gets completed
+22:59:44.023 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateMacPageTitle
+22:59:44.024 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : clickApple
+22:59:44.024 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : clickApple
+22:59:46.101 [main] DEBUG com.rishabh.framework.ApplePageTest - Apple Page Title is :Apple
+22:59:46.109 [main] INFO  com.rishabh.framework.ApplePageTest - clickApple() TC gets completed
+22:59:46.110 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : clickApple
+22:59:46.111 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhonePageTitle
+22:59:46.113 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhonePageTitle
+22:59:48.180 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhone Home Page Title is :iPhone - Apple
+22:59:48.190 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhonePageTitle() TC gets completed
+22:59:48.190 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhonePageTitle
+22:59:48.229 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+22:59:49.808 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page
+23:07:15.900 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+23:07:15.904 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+23:07:30.612 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+23:07:30.613 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+23:07:30.632 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : TestMethod
+23:07:30.633 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : TestMethod
+23:07:30.644 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+23:07:30.645 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+23:07:30.645 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+23:07:30.657 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getFullHomePageTitle
+23:07:30.657 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getFullHomePageTitle
+23:07:30.666 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+23:07:30.679 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+23:07:31.274 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:07:31.277 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getHomePageTitle
+23:07:31.277 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getHomePageTitle
+23:07:31.282 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+23:07:31.286 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+23:07:31.287 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+23:07:31.289 [main] INFO  com.rishabh.framework.DataProviderTest - /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/testdata/testdata.xlsx
+23:07:31.294 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Inside getTestData() method
+23:07:32.058 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of rows are : 50
+23:07:32.058 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of columns are : 8
+23:07:32.065 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:07:32.066 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Dulce
+23:07:32.066 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Abril
+23:07:32.066 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:07:32.066 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:07:32.066 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Mara
+23:07:32.067 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hashimoto
+23:07:32.067 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:07:32.067 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:07:32.067 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Philip
+23:07:32.068 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gent
+23:07:32.068 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:07:32.068 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:07:32.068 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Kathleen
+23:07:32.068 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hanner
+23:07:32.069 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:07:32.069 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:07:32.069 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Nereida
+23:07:32.070 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Magwood
+23:07:32.070 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:07:32.070 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:07:32.071 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gaston
+23:07:32.071 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Brumm
+23:07:32.071 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:07:32.071 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:07:32.072 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Etta
+23:07:32.072 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hurn
+23:07:32.072 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:07:32.072 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:07:32.073 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Earlean
+23:07:32.073 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Melgar
+23:07:32.073 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:07:32.076 [main] INFO  com.rishabh.framework.utils.ExcelUtils - getTestData() gets completed
+23:07:32.077 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:07:32.077 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataDulce
+23:07:32.077 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Dulce Abril Female
+23:07:32.077 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:07:32.078 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:07:32.078 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:07:32.078 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataMara
+23:07:32.079 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Mara Hashimoto Female
+23:07:32.079 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:07:32.079 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:07:32.079 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:07:32.080 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataPhilip
+23:07:32.080 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Philip Gent Male
+23:07:32.080 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:07:32.080 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:07:32.081 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:07:32.081 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataKathleen
+23:07:32.081 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Kathleen Hanner Female
+23:07:32.081 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:07:32.081 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:07:32.082 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:07:32.082 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataNereida
+23:07:32.082 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Nereida Magwood Female
+23:07:32.083 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:07:32.083 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:07:32.083 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:07:32.084 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataGaston
+23:07:32.084 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Gaston Brumm Male
+23:07:32.084 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:07:32.085 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:07:32.085 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:07:32.085 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEtta
+23:07:32.086 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Etta Hurn Female
+23:07:32.086 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:07:32.086 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:07:32.087 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:07:32.087 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEarlean
+23:07:32.087 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Earlean Melgar Female
+23:07:32.087 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:07:32.088 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:07:32.089 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateMacPageTitle
+23:07:32.089 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateMacPageTitle
+23:07:44.476 [main] DEBUG com.rishabh.framework.ApplePageTest - Mac Home Page Title is :Mac - Apple
+23:07:44.486 [main] INFO  com.rishabh.framework.ApplePageTest - validateMacPageTitle() TC gets completed
+23:07:44.486 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateMacPageTitle
+23:07:44.487 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : clickApple
+23:07:44.487 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : clickApple
+23:07:52.273 [main] DEBUG com.rishabh.framework.ApplePageTest - Apple Page Title is :Apple
+23:07:52.283 [main] INFO  com.rishabh.framework.ApplePageTest - clickApple() TC gets completed
+23:07:52.284 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : clickApple
+23:07:52.285 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhonePageTitle
+23:07:52.285 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhonePageTitle
+23:08:12.452 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : validateiPhonePageTitle
+23:08:12.878 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:08:12.880 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhoneLearnMore
+23:08:12.880 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhoneLearnMore
+23:08:32.965 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : validateiPhoneLearnMore
+23:08:33.585 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:08:33.621 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+23:08:34.515 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page
+23:09:00.182 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+23:09:00.185 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+23:09:14.631 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+23:09:14.632 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+23:09:14.645 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : TestMethod
+23:09:14.645 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : TestMethod
+23:09:14.651 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+23:09:14.651 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+23:09:14.652 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+23:09:14.664 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getFullHomePageTitle
+23:09:14.664 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getFullHomePageTitle
+23:09:14.682 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+23:09:14.713 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+23:09:15.229 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:09:15.231 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getHomePageTitle
+23:09:15.232 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getHomePageTitle
+23:09:15.236 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+23:09:15.241 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+23:09:15.241 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+23:09:15.244 [main] INFO  com.rishabh.framework.DataProviderTest - /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/testdata/testdata.xlsx
+23:09:15.248 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Inside getTestData() method
+23:09:15.967 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of rows are : 50
+23:09:15.967 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of columns are : 8
+23:09:15.974 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:09:15.974 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Dulce
+23:09:15.975 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Abril
+23:09:15.975 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:09:15.975 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:09:15.976 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Mara
+23:09:15.976 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hashimoto
+23:09:15.976 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:09:15.977 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:09:15.977 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Philip
+23:09:15.977 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gent
+23:09:15.978 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:09:15.978 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:09:15.978 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Kathleen
+23:09:15.978 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hanner
+23:09:15.979 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:09:15.979 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:09:15.979 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Nereida
+23:09:15.979 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Magwood
+23:09:15.980 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:09:15.980 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:09:15.981 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gaston
+23:09:15.981 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Brumm
+23:09:15.981 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:09:15.981 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:09:15.982 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Etta
+23:09:15.982 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hurn
+23:09:15.982 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:09:15.982 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:09:15.983 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Earlean
+23:09:15.983 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Melgar
+23:09:15.983 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:09:15.987 [main] INFO  com.rishabh.framework.utils.ExcelUtils - getTestData() gets completed
+23:09:15.987 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:09:15.988 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataDulce
+23:09:15.988 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Dulce Abril Female
+23:09:15.988 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:09:15.989 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:09:15.989 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:09:15.989 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataMara
+23:09:15.989 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Mara Hashimoto Female
+23:09:15.990 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:09:15.990 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:09:15.991 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:09:15.991 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataPhilip
+23:09:15.991 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Philip Gent Male
+23:09:15.992 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:09:15.992 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:09:15.996 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:09:15.997 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataKathleen
+23:09:15.997 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Kathleen Hanner Female
+23:09:15.997 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:09:15.997 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:09:15.998 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:09:15.998 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataNereida
+23:09:15.998 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Nereida Magwood Female
+23:09:15.998 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:09:15.999 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:09:16.001 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:09:16.001 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataGaston
+23:09:16.001 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Gaston Brumm Male
+23:09:16.001 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:09:16.002 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:09:16.003 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:09:16.003 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEtta
+23:09:16.004 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Etta Hurn Female
+23:09:16.004 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:09:16.004 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:09:16.005 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:09:16.006 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEarlean
+23:09:16.006 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Earlean Melgar Female
+23:09:16.007 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:09:16.007 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:09:16.009 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateMacPageTitle
+23:09:16.009 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateMacPageTitle
+23:09:17.095 [main] DEBUG com.rishabh.framework.ApplePageTest - Mac Home Page Title is :Mac - Apple
+23:09:17.108 [main] INFO  com.rishabh.framework.ApplePageTest - validateMacPageTitle() TC gets completed
+23:09:17.108 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateMacPageTitle
+23:09:17.109 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : clickApple
+23:09:17.109 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : clickApple
+23:09:18.210 [main] DEBUG com.rishabh.framework.ApplePageTest - Apple Page Title is :Apple
+23:09:18.223 [main] INFO  com.rishabh.framework.ApplePageTest - clickApple() TC gets completed
+23:09:18.223 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : clickApple
+23:09:18.224 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhonePageTitle
+23:09:18.224 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhonePageTitle
+23:09:19.887 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhone Home Page Title is :iPhone - Apple
+23:09:19.893 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhonePageTitle() TC gets completed
+23:09:19.894 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhonePageTitle
+23:09:19.894 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhoneLearnMore
+23:09:19.894 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhoneLearnMore
+23:09:21.183 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : validateiPhoneLearnMore
+23:09:21.599 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:09:21.856 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+23:09:22.688 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page
+23:10:08.670 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+23:10:08.673 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+23:10:15.593 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+23:10:15.594 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+23:10:15.604 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : TestMethod
+23:10:15.605 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : TestMethod
+23:10:15.609 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+23:10:15.610 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+23:10:15.610 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+23:10:15.614 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getFullHomePageTitle
+23:10:15.615 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getFullHomePageTitle
+23:10:15.646 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+23:10:15.659 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+23:10:16.007 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:10:16.010 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getHomePageTitle
+23:10:16.010 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getHomePageTitle
+23:10:16.015 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+23:10:16.021 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+23:10:16.021 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+23:10:16.023 [main] INFO  com.rishabh.framework.DataProviderTest - /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/testdata/testdata.xlsx
+23:10:16.028 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Inside getTestData() method
+23:10:16.815 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of rows are : 50
+23:10:16.815 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of columns are : 8
+23:10:16.824 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:10:16.825 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Dulce
+23:10:16.826 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Abril
+23:10:16.826 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:10:16.826 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:10:16.826 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Mara
+23:10:16.827 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hashimoto
+23:10:16.827 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:10:16.827 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:10:16.828 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Philip
+23:10:16.828 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gent
+23:10:16.828 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:10:16.829 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:10:16.829 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Kathleen
+23:10:16.829 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hanner
+23:10:16.829 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:10:16.830 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:10:16.830 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Nereida
+23:10:16.830 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Magwood
+23:10:16.830 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:10:16.831 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:10:16.831 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gaston
+23:10:16.831 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Brumm
+23:10:16.832 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:10:16.832 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:10:16.832 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Etta
+23:10:16.832 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hurn
+23:10:16.833 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:10:16.833 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:10:16.833 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Earlean
+23:10:16.833 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Melgar
+23:10:16.833 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:10:16.839 [main] INFO  com.rishabh.framework.utils.ExcelUtils - getTestData() gets completed
+23:10:16.840 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:10:16.841 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataDulce
+23:10:16.842 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Dulce Abril Female
+23:10:16.842 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:10:16.842 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:10:16.843 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:10:16.843 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataMara
+23:10:16.843 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Mara Hashimoto Female
+23:10:16.844 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:10:16.844 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:10:16.845 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:10:16.846 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataPhilip
+23:10:16.846 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Philip Gent Male
+23:10:16.846 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:10:16.847 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:10:16.847 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:10:16.847 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataKathleen
+23:10:16.847 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Kathleen Hanner Female
+23:10:16.847 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:10:16.848 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:10:16.848 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:10:16.849 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataNereida
+23:10:16.852 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Nereida Magwood Female
+23:10:16.853 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:10:16.856 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:10:16.857 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:10:16.858 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataGaston
+23:10:16.859 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Gaston Brumm Male
+23:10:16.859 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:10:16.859 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:10:16.860 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:10:16.860 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEtta
+23:10:16.861 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Etta Hurn Female
+23:10:16.861 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:10:16.861 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:10:16.862 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:10:16.862 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEarlean
+23:10:16.863 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Earlean Melgar Female
+23:10:16.863 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:10:16.863 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:10:16.864 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateMacPageTitle
+23:10:16.864 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateMacPageTitle
+23:10:18.838 [main] DEBUG com.rishabh.framework.ApplePageTest - Mac Home Page Title is :Mac - Apple
+23:10:18.858 [main] INFO  com.rishabh.framework.ApplePageTest - validateMacPageTitle() TC gets completed
+23:10:18.862 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateMacPageTitle
+23:10:18.867 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : clickApple
+23:10:18.868 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : clickApple
+23:10:19.583 [main] DEBUG com.rishabh.framework.ApplePageTest - Apple Page Title is :Apple
+23:10:19.594 [main] INFO  com.rishabh.framework.ApplePageTest - clickApple() TC gets completed
+23:10:19.595 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : clickApple
+23:10:19.596 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhonePageTitle
+23:10:19.597 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhonePageTitle
+23:10:20.883 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhone Home Page Title is :iPhone - Apple
+23:10:20.896 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhonePageTitle() TC gets completed
+23:10:20.897 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhonePageTitle
+23:10:20.897 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhoneLearnMore
+23:10:20.898 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhoneLearnMore
+23:10:22.143 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : validateiPhoneLearnMore
+23:10:22.558 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:10:22.605 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+23:10:23.601 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page
+23:11:57.328 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+23:11:57.330 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+23:12:06.706 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+23:12:06.707 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+23:12:06.721 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : TestMethod
+23:12:06.721 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : TestMethod
+23:12:06.727 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+23:12:06.727 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+23:12:06.728 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+23:12:06.733 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getFullHomePageTitle
+23:12:06.733 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getFullHomePageTitle
+23:12:06.746 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+23:12:06.756 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+23:12:07.315 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:12:07.317 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getHomePageTitle
+23:12:07.318 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getHomePageTitle
+23:12:07.323 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+23:12:07.327 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+23:12:07.328 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+23:12:07.331 [main] INFO  com.rishabh.framework.DataProviderTest - /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/testdata/testdata.xlsx
+23:12:07.333 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Inside getTestData() method
+23:12:08.080 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of rows are : 50
+23:12:08.080 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of columns are : 8
+23:12:08.086 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:12:08.087 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Dulce
+23:12:08.087 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Abril
+23:12:08.087 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:12:08.088 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:12:08.088 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Mara
+23:12:08.088 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hashimoto
+23:12:08.088 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:12:08.089 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:12:08.089 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Philip
+23:12:08.090 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gent
+23:12:08.090 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:12:08.090 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:12:08.090 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Kathleen
+23:12:08.090 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hanner
+23:12:08.091 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:12:08.091 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:12:08.091 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Nereida
+23:12:08.091 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Magwood
+23:12:08.091 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:12:08.092 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:12:08.092 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gaston
+23:12:08.093 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Brumm
+23:12:08.093 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:12:08.093 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:12:08.093 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Etta
+23:12:08.093 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hurn
+23:12:08.094 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:12:08.094 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:12:08.094 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Earlean
+23:12:08.094 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Melgar
+23:12:08.094 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:12:08.097 [main] INFO  com.rishabh.framework.utils.ExcelUtils - getTestData() gets completed
+23:12:08.097 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:12:08.098 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataDulce
+23:12:08.098 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Dulce Abril Female
+23:12:08.098 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:12:08.099 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:12:08.099 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:12:08.099 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataMara
+23:12:08.099 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Mara Hashimoto Female
+23:12:08.099 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:12:08.100 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:12:08.100 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:12:08.100 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataPhilip
+23:12:08.101 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Philip Gent Male
+23:12:08.101 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:12:08.101 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:12:08.101 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:12:08.101 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataKathleen
+23:12:08.102 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Kathleen Hanner Female
+23:12:08.102 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:12:08.102 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:12:08.102 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:12:08.103 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataNereida
+23:12:08.103 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Nereida Magwood Female
+23:12:08.103 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:12:08.104 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:12:08.104 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:12:08.104 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataGaston
+23:12:08.105 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Gaston Brumm Male
+23:12:08.105 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:12:08.105 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:12:08.106 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:12:08.106 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEtta
+23:12:08.106 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Etta Hurn Female
+23:12:08.106 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:12:08.107 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:12:08.107 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:12:08.107 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEarlean
+23:12:08.108 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Earlean Melgar Female
+23:12:08.108 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:12:08.108 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:12:08.109 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateMacPageTitle
+23:12:08.109 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateMacPageTitle
+23:12:09.765 [main] DEBUG com.rishabh.framework.ApplePageTest - Mac Home Page Title is :Mac - Apple
+23:12:09.772 [main] INFO  com.rishabh.framework.ApplePageTest - validateMacPageTitle() TC gets completed
+23:12:09.773 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateMacPageTitle
+23:12:09.774 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : clickApple
+23:12:09.774 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : clickApple
+23:12:10.813 [main] DEBUG com.rishabh.framework.ApplePageTest - Apple Page Title is :Apple
+23:12:10.830 [main] INFO  com.rishabh.framework.ApplePageTest - clickApple() TC gets completed
+23:12:10.830 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : clickApple
+23:12:10.831 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhonePageTitle
+23:12:10.831 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhonePageTitle
+23:12:13.466 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhone Home Page Title is :iPhone - Apple
+23:12:13.478 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhonePageTitle() TC gets completed
+23:12:13.479 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhonePageTitle
+23:12:13.479 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhoneLearnMore
+23:12:13.480 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhoneLearnMore
+23:12:32.064 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhonePage Learn More Title is :Apple Trade In - Apple
+23:12:32.078 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhoneLearnMore() TC gets completed
+23:12:32.079 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhoneLearnMore
+23:12:32.126 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+23:12:32.896 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page
+23:16:14.662 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+23:16:14.665 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+23:16:22.884 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+23:16:22.885 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+23:16:22.895 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : TestMethod
+23:16:22.895 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : TestMethod
+23:16:22.901 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+23:16:22.901 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+23:16:22.902 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+23:16:22.913 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getFullHomePageTitle
+23:16:22.913 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getFullHomePageTitle
+23:16:22.930 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+23:16:22.943 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+23:16:23.726 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:16:23.730 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getHomePageTitle
+23:16:23.730 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getHomePageTitle
+23:16:23.736 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+23:16:23.740 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+23:16:23.741 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+23:16:23.744 [main] INFO  com.rishabh.framework.DataProviderTest - /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/testdata/testdata.xlsx
+23:16:23.747 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Inside getTestData() method
+23:16:24.522 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of rows are : 50
+23:16:24.522 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of columns are : 8
+23:16:24.528 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:16:24.529 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Dulce
+23:16:24.529 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Abril
+23:16:24.529 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:16:24.529 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:16:24.529 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Mara
+23:16:24.530 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hashimoto
+23:16:24.530 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:16:24.530 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:16:24.530 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Philip
+23:16:24.531 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gent
+23:16:24.531 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:16:24.531 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:16:24.531 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Kathleen
+23:16:24.531 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hanner
+23:16:24.531 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:16:24.531 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:16:24.532 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Nereida
+23:16:24.532 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Magwood
+23:16:24.532 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:16:24.532 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:16:24.533 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gaston
+23:16:24.533 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Brumm
+23:16:24.533 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:16:24.533 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:16:24.533 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Etta
+23:16:24.533 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hurn
+23:16:24.534 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:16:24.534 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:16:24.534 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Earlean
+23:16:24.534 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Melgar
+23:16:24.534 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:16:24.537 [main] INFO  com.rishabh.framework.utils.ExcelUtils - getTestData() gets completed
+23:16:24.537 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:16:24.538 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataDulce
+23:16:24.538 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Dulce Abril Female
+23:16:24.538 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:16:24.539 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:16:24.539 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:16:24.539 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataMara
+23:16:24.539 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Mara Hashimoto Female
+23:16:24.539 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:16:24.540 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:16:24.540 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:16:24.540 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataPhilip
+23:16:24.540 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Philip Gent Male
+23:16:24.541 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:16:24.541 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:16:24.545 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:16:24.545 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataKathleen
+23:16:24.545 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Kathleen Hanner Female
+23:16:24.545 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:16:24.546 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:16:24.546 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:16:24.546 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataNereida
+23:16:24.546 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Nereida Magwood Female
+23:16:24.546 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:16:24.547 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:16:24.547 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:16:24.547 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataGaston
+23:16:24.547 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Gaston Brumm Male
+23:16:24.547 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:16:24.548 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:16:24.548 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:16:24.548 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEtta
+23:16:24.549 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Etta Hurn Female
+23:16:24.549 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:16:24.549 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:16:24.549 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:16:24.549 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEarlean
+23:16:24.550 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Earlean Melgar Female
+23:16:24.550 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:16:24.550 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:16:24.551 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateMacPageTitle
+23:16:24.551 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateMacPageTitle
+23:16:26.941 [main] DEBUG com.rishabh.framework.ApplePageTest - Mac Home Page Title is :Mac - Apple
+23:16:26.950 [main] INFO  com.rishabh.framework.ApplePageTest - validateMacPageTitle() TC gets completed
+23:16:26.950 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateMacPageTitle
+23:16:26.951 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : clickApple
+23:16:26.952 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : clickApple
+23:16:28.581 [main] DEBUG com.rishabh.framework.ApplePageTest - Apple Page Title is :Apple
+23:16:28.591 [main] INFO  com.rishabh.framework.ApplePageTest - clickApple() TC gets completed
+23:16:28.591 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : clickApple
+23:16:28.592 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhonePageTitle
+23:16:28.592 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhonePageTitle
+23:16:33.469 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhone Home Page Title is :iPhone - Apple
+23:16:33.479 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhonePageTitle() TC gets completed
+23:16:33.479 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhonePageTitle
+23:16:33.480 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhoneLearnMore
+23:16:33.481 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhoneLearnMore
+23:16:41.498 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhonePage Learn More Title is :Apple Trade In - Apple
+23:16:41.504 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhoneLearnMore() TC gets completed
+23:16:41.505 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhoneLearnMore
+23:16:41.533 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+23:16:42.381 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page
+23:18:12.987 [main] DEBUG com.rishabh.framework.AppTest - Hello Rishabh Jaiswal!
+23:18:12.990 [main] INFO  com.rishabh.framework.AppTest - AppTest Completed
+23:18:20.705 [main] INFO  com.rishabh.framework.BaseTest - Home Page Title is Apple
+23:18:20.706 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onStart Method  : Test
+23:18:20.717 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : TestMethod
+23:18:20.717 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : TestMethod
+23:18:20.722 [main] DEBUG com.rishabh.framework.AppTest - Hello Jaiswal!
+23:18:20.722 [main] INFO  com.rishabh.framework.AppTest - TestMethod() Completed
+23:18:20.723 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : TestMethod
+23:18:20.728 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getFullHomePageTitle
+23:18:20.728 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getFullHomePageTitle
+23:18:20.755 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Full Home Page Title is :Apple
+23:18:20.772 [main] ERROR com.rishabh.framework.listeners.TestListener - The name of the testcase failed is : getFullHomePageTitle
+23:18:21.256 [main] INFO  com.rishabh.framework.listeners.TestListener - Sucessfully copy the screenshot in directory : /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/screenshots/
+23:18:21.260 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : getHomePageTitle
+23:18:21.260 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : getHomePageTitle
+23:18:21.266 [main] DEBUG com.rishabh.framework.HomePageTest - Apple Home Page Title is :Apple
+23:18:21.271 [main] INFO  com.rishabh.framework.HomePageTest - getHomePageTitle() TC gets completed
+23:18:21.271 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : getHomePageTitle
+23:18:21.274 [main] INFO  com.rishabh.framework.DataProviderTest - /Users/rishabh/Desktop/Desktop/java_automation_framework/src/test/resources/testdata/testdata.xlsx
+23:18:21.278 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Inside getTestData() method
+23:18:22.144 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of rows are : 50
+23:18:22.144 [main] INFO  com.rishabh.framework.utils.ExcelUtils - Number of columns are : 8
+23:18:22.150 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:18:22.151 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Dulce
+23:18:22.151 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Abril
+23:18:22.151 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:18:22.152 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:18:22.152 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Mara
+23:18:22.152 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hashimoto
+23:18:22.152 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:18:22.153 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:18:22.154 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Philip
+23:18:22.154 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gent
+23:18:22.154 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:18:22.154 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:18:22.155 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Kathleen
+23:18:22.155 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hanner
+23:18:22.155 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:18:22.155 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:18:22.156 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Nereida
+23:18:22.156 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Magwood
+23:18:22.156 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:18:22.157 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Male
+23:18:22.157 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Gaston
+23:18:22.157 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Brumm
+23:18:22.158 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Male
+23:18:22.158 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:18:22.158 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Etta
+23:18:22.159 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Hurn
+23:18:22.159 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:18:22.159 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Data is Found : Female
+23:18:22.159 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Earlean
+23:18:22.159 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Melgar
+23:18:22.160 [main] DEBUG com.rishabh.framework.utils.ExcelUtils - Female
+23:18:22.163 [main] INFO  com.rishabh.framework.utils.ExcelUtils - getTestData() gets completed
+23:18:22.164 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:18:22.164 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataDulce
+23:18:22.164 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Dulce Abril Female
+23:18:22.165 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:18:22.165 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:18:22.165 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:18:22.165 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataMara
+23:18:22.166 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Mara Hashimoto Female
+23:18:22.167 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:18:22.167 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:18:22.168 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:18:22.168 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataPhilip
+23:18:22.168 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Philip Gent Male
+23:18:22.168 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:18:22.169 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:18:22.169 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:18:22.169 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataKathleen
+23:18:22.169 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Kathleen Hanner Female
+23:18:22.170 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:18:22.170 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:18:22.170 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:18:22.170 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataNereida
+23:18:22.171 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Nereida Magwood Female
+23:18:22.171 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:18:22.171 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:18:22.171 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:18:22.171 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataGaston
+23:18:22.172 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Gaston Brumm Male
+23:18:22.172 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:18:22.172 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:18:22.173 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:18:22.173 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEtta
+23:18:22.173 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Etta Hurn Female
+23:18:22.173 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:18:22.173 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:18:22.174 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : runTestData
+23:18:22.174 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : runTestDataEarlean
+23:18:22.174 [main] DEBUG com.rishabh.framework.DataProviderTest - Data : Earlean Melgar Female
+23:18:22.174 [main] INFO  com.rishabh.framework.DataProviderTest - runTestData() TC gets completed
+23:18:22.175 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : runTestData
+23:18:22.175 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateMacPageTitle
+23:18:22.175 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateMacPageTitle
+23:18:24.573 [main] DEBUG com.rishabh.framework.ApplePageTest - Mac Home Page Title is :Mac - Apple
+23:18:24.582 [main] INFO  com.rishabh.framework.ApplePageTest - validateMacPageTitle() TC gets completed
+23:18:24.582 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateMacPageTitle
+23:18:24.583 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : clickApple
+23:18:24.583 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : clickApple
+23:18:26.352 [main] DEBUG com.rishabh.framework.ApplePageTest - Apple Page Title is :Apple
+23:18:26.362 [main] INFO  com.rishabh.framework.ApplePageTest - clickApple() TC gets completed
+23:18:26.363 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : clickApple
+23:18:26.363 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhonePageTitle
+23:18:26.364 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhonePageTitle
+23:18:31.714 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhone Home Page Title is :iPhone - Apple
+23:18:31.724 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhonePageTitle() TC gets completed
+23:18:31.724 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhonePageTitle
+23:18:31.725 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of test case started is : validateiPhoneLearnMore
+23:18:31.725 [main] DEBUG com.rishabh.framework.listeners.TestListener - Test Method name is : validateiPhoneLearnMore
+23:18:37.503 [main] DEBUG com.rishabh.framework.ApplePageTest - iPhonePage Learn More Title is :Apple Trade In - Apple
+23:18:37.512 [main] INFO  com.rishabh.framework.ApplePageTest - validateiPhoneLearnMore() TC gets completed
+23:18:37.513 [main] INFO  com.rishabh.framework.listeners.TestListener - The name of the testcase passed is : validateiPhoneLearnMore
+23:18:37.557 [main] INFO  com.rishabh.framework.listeners.TestListener - I am onFinish Method  : Test
+23:18:38.393 [main] INFO  com.rishabh.framework.BaseTest - Closing the Home Page

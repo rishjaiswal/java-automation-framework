@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -15,6 +16,8 @@ import com.rishabh.framework.constants.Constants;
 import com.rishabh.framework.utils.DriverUtils;
 
 public class SeleniumUtils {
+	
+	static WebDriver driver = DriverUtils.initializeDriver();
 
 	/**
 	 * To get the By object from the below params:
@@ -55,7 +58,7 @@ public class SeleniumUtils {
 	public static WebElement getElement(String type, String path) {
 		By by = getElementBy(type, path);
 		if (by != null)
-			return DriverUtils.initializeDriver().findElement(by);
+			return driver.findElement(by);
 		return null;
 	}
 
@@ -68,7 +71,7 @@ public class SeleniumUtils {
 	public static List<WebElement> getElements(String type, String path) {
 		By by = getElementBy(type, path);
 		if (by != null)
-			return DriverUtils.initializeDriver().findElements(by);
+			return driver.findElements(by);
 		return null;
 	}
 
@@ -98,7 +101,7 @@ public class SeleniumUtils {
 	 * @element : WebElement
 	 */
 	public static void jsClck(WebElement element) {
-		JavascriptExecutor js = (JavascriptExecutor) DriverUtils.initializeDriver();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();", element);
 	}
 
@@ -110,7 +113,7 @@ public class SeleniumUtils {
 	 */
 	public static boolean isVisible(WebElement element) {
 		boolean flag = false;
-		DriverUtils.initializeDriver().manage().timeouts().implicitlyWait(Constants.IMPLICITWAIT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Constants.IMPLICITWAIT, TimeUnit.SECONDS);
 		try {
 			if (element.isDisplayed()) {
 				flag = true;
@@ -127,7 +130,7 @@ public class SeleniumUtils {
 	 * @element : WebElement
 	 */
 	public static WebElement waitUntilElementVisible(WebElement element) {
-		WebDriverWait wait = new WebDriverWait(DriverUtils.initializeDriver(), Constants.EXPLICITWAIT);
+		WebDriverWait wait = new WebDriverWait(driver, Constants.EXPLICITWAIT);
 		return wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
@@ -135,11 +138,11 @@ public class SeleniumUtils {
 	 * Switch to new Window
 	 */
 	public static void switchToNewWindow() {
-		String parentWinHandle = DriverUtils.initializeDriver().getWindowHandle();
-		Set<String> winHandles = DriverUtils.initializeDriver().getWindowHandles();
+		String parentWinHandle = driver.getWindowHandle();
+		Set<String> winHandles = driver.getWindowHandles();
 		for (String temp : winHandles) {
 			if (!temp.equalsIgnoreCase(parentWinHandle)) {
-				DriverUtils.initializeDriver().switchTo().window(temp);
+				driver.switchTo().window(temp);
 			}
 		}
 	}
